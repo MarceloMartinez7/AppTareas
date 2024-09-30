@@ -122,17 +122,17 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   tareaContent: {
-    flexDirection: 'row', // Para alinear el texto y el icono de eliminar
+    flexDirection: 'row', 
     justifyContent: 'space-between',
     flex: 1,
   },
   itemTarea: {
-    padding: 15,
+    padding: 5,
     flex: 1,
-    borderRadius: 10,
+    borderRadius: 0,
     borderWidth: 2,
-    flexDirection: 'row', // Permitir que el icono esté alineado en línea con el texto
-    justifyContent: 'space-between', // Separar el texto de la tarea del ícono de eliminar
+    flexDirection: 'row', 
+    justifyContent: 'space-between', 
   },
   tareaCompletada: {
     backgroundColor: '#d4edda',
